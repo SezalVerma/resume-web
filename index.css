@@ -1,0 +1,73 @@
+body{
+    margin : 0px;
+}
+
+/* body-header */
+
+#body-header {
+    background-image: url("images/back2.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+    width: 100vw;
+    /* opacity: 0.9; */
+    background-attachment: fixed;
+}
+
+/* navbar */
+
+#navbar li a {
+    margin-top: 1rem;
+    transition: color 1s, border-bottom 2s;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin : 0.5rem ;
+    font-size: larger;
+   
+}
+
+
+.horizontal-list li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.horizontal-list li a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: lightgray;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* header-heading */
+
+#header-heading{
+    margin-top: 10rem;
+}
+
+#my-name{
+    font-family: cursive;
+    font-size: 4rem;
+    color: floralwhite;
+}
+
+/* Social Icons */
+
+.social-icons li a {
+    margin-top: -2.5rem;
+    font-size: 2rem;
+}
+
